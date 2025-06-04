@@ -7,6 +7,8 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import Hook_useState from './components/Hook_useState';
+import Hook_useEffect from './components/Hook_useEffect';
+import Event_Handling from './components/Event_Handling';
 
 
 class App extends Component {
@@ -14,9 +16,13 @@ render(){
   return (
     <div className="App">
 
+    <Event_Handling/>
+
+    {/*<Hook_useEffect/>
+
     <Hook_useState/>
 
-    {/*<Counter/>
+    <Counter/>
 
      <Message/>
 
