@@ -10,8 +10,8 @@ function Event_Handling() {
             console.log ("Hello 2", e);
     }
 
-    function hello3(name){ //normal function with parameters
-            console.log ("Hello 3 "+ name);
+    function hello3(name,e){ //normal function with parameters with event object
+            console.log ("Hello 3 "+ name, e);
     }
 //() => { //this is anonymous function. anonymous functions haven't name
 //      hello3("Ann")
@@ -31,7 +31,7 @@ function Event_Handling() {
     <div>
         <button onClick = {hello1}>Click 1</button>
         <button onClick = {hello2}>Click 2</button>
-        <button onClick = {() => {hello3("Ann")}}>Click 3</button>
+        <button onClick = {(e) => {hello3("Ann",e)}}>Click 3</button>
         <button onClick = {() => {hello4("Devid")}}>Click 4</button>
 
     </div>
