@@ -9,6 +9,10 @@ import Counter from './components/Counter';
 import Hook_useState from './components/Hook_useState';
 import Hook_useEffect from './components/Hook_useEffect';
 import Event_Handling from './components/Event_Handling';
+import Fetch from './axios_for_API_calls/Fetch';
+import Post from './axios_for_API_calls/Post';
+import Update from './axios_for_API_calls/Update';
+import Delete from './axios_for_API_calls/Delete';
 
 
 class App extends Component {
@@ -16,9 +20,17 @@ render(){
   return (
     <div className="App">
 
+    <Delete/>
+
+    <Update/>
+
+    {/*<Post/>
+
+    <Fetch/>
+
     <Event_Handling/>
 
-    {/*<Hook_useEffect/>
+    <Hook_useEffect/>
 
     <Hook_useState/>
 
