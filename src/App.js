@@ -13,6 +13,7 @@ import Fetch from './axios_for_API_calls/Fetch';
 import Post from './axios_for_API_calls/Post';
 import Update from './axios_for_API_calls/Update';
 import Delete from './axios_for_API_calls/Delete';
+import FormValidation from './Basic_form_validation/FormValidation';
 
 
 class App extends Component {
@@ -20,11 +21,13 @@ render(){
   return (
     <div className="App">
 
-    <Delete/>
+    <FormValidation/>
+
+    {/*<Delete/>
 
     <Update/>
 
-    {/*<Post/>
+    <Post/>
 
     <Fetch/>
 
