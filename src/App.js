@@ -14,12 +14,15 @@ import Post from './axios_for_API_calls/Post';
 import Update from './axios_for_API_calls/Update';
 import Delete from './axios_for_API_calls/Delete';
 import FormValidation from './Basic_form_validation/FormValidation';
+import FormValidationWithYup from './Basic_form_validation/FormValidationWithYup';
 
 
 class App extends Component {
 render(){
   return (
     <div className="App">
+
+    {/*FormValidationWithYup/*/}
 
     <FormValidation/>
 
